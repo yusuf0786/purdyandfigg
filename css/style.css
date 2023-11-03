@@ -4812,3 +4812,25 @@ select {
     padding-right: 6rem;
   }
 }
+
+.shadow-effect-left::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 8px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 6px -24px 68px 50px #fff;
+}
+
+.shadow-effect-right::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 8px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: -4px -24px 58px 50px #fff;
+}
